@@ -1,0 +1,15 @@
+# Fdb version 4
+["pdflatex"] 1781310147.44971 "/Users/vladislavkalinichenko/VSCodeProjects/Bandwidth Research/submissions/icomp-2026/main.tex" "main.pdf" "main" 1781310147.54809 2
+  "/Users/vladislavkalinichenko/VSCodeProjects/Bandwidth Research/submissions/icomp-2026/main.tex" 1776273304.08491 2002 8b5c8bddc4678eb4b4896487434ccac1 ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls" 1741388039 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo" 1741388039 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
+  "icomp2026_conference.sty" 0 -1 0 ""
+  "main.aux" 1781310147.44918 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1776273304.08491 2002 8b5c8bddc4678eb4b4896487434ccac1 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

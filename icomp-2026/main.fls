@@ -1,0 +1,10 @@
+PWD /Users/vladislavkalinichenko/VSCodeProjects/Bandwidth Research/submissions/icomp-2026
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/vladislavkalinichenko/VSCodeProjects/Bandwidth Research/submissions/icomp-2026/main.tex
+OUTPUT main.log
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/size10.clo

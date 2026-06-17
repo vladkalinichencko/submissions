@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage{icomp2026_conference,times}
+
+\input{math_commands.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{DriftSSL: Self-Supervised Learning as Fisher Divergence Geometry}
+
+\author{Anonymous Authors\\
+Paper under double-blind review}
+
+% Uncomment only for the camera-ready version after acceptance.
+% \icompfinalcopy
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study contrastive self-supervised learning through a kernel-density view of representation geometry. The core object is a drift vector obtained from the difference between positive and negative kernel-weighted centroids, which gives a closed-form score-ratio field on the embedding sphere. This perspective links temperature, mean-shift dynamics, and Fisher divergence, and motivates diagnostics for training phases and representation collapse.
+\end{abstract}
+
+\section{Introduction}
+
+Contrastive self-supervised learning is sensitive to temperature, augmentation strength, and representation geometry. We reinterpret this sensitivity through kernel density estimation on normalized embeddings.
+
+\section{Method}
+
+Let $z_i$ be a normalized embedding and let $\mu^+_\sigma(z_i)$ and $\mu^-_\sigma(z_i)$ denote kernel-weighted centroids of positive and negative neighborhoods. The drift vector is
+$$
+V_\sigma(z_i) = \mu^+_\sigma(z_i) - \mu^-_\sigma(z_i).
+$$
+Under a Gaussian kernel, $V_\sigma(z_i) / \sigma^2$ is the score of a local log-density ratio.
+
+\section{Experiments}
+
+Describe the datasets, SSL baselines, representation metrics, and downstream probes.
+
+\section{Discussion}
+
+Discuss what the drift-field view explains, where it is diagnostic rather than a direct loss, and how it relates to score matching and learning dynamics.
+
+\bibliography{references}
+\bibliographystyle{icomp2026_conference}
+
+\appendix
+\section{Additional Material}
+
+Add derivations and extra experimental details here.
+
+\end{document}
